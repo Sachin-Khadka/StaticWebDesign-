@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<program>
+	<event>
+		<Day> Sunday </Day>
+		<Sport> Korean Language Speaking Competition </Sport>
+		<teacher>Sachin Khadka</teacher>
+		<country> Nepal </country>
+		<place>Kathmandu</place>
+		<prize> 1 Lakhs </prize>
+		<year>2019</year>
+	</event>
+	<event>
+		<Day> Monday </Day>
+		<Sport> Japanese Language Speaking Competition </Sport>
+		<teacher>Sujit Dangol</teacher>
+		<country> Nepal  </country>
+		<place>Kathmandu</place>
+		<prize> 1 Lakhs </prize>
+		<year>2019</year>
+	</event>
+	<event>
+		<Day> Tuesday </Day>
+		<Sport> English Language Speaking Competition </Sport>
+		<teacher> David Tamang </teacher>
+		<country> Nepal  </country>
+		<place>Kathmandu</place>
+		<prize> 1 Lakhs </prize>
+		<year>2019</year>
+	</event>
+	<event>
+		<Day> Wednesday </Day>
+		<Sport> Football Competion </Sport>
+		<teacher> Sandesh Thapa </teacher>
+		<country> Nepal  </country>
+		<place> Bhaktapur </place>
+		<prize>50 thousand </prize>
+		<year>2019</year>
+	</event>
+	<event>
+		<Day> Thursday </Day>
+		<Sport> Basketball Competition </Sport>
+		<teacher> Sandesh Thapa </teacher>
+		<country> Nepal  </country>
+		<place> Bhaktapur </place>
+		<prize>50 thousand </prize>
+		<year>2019</year>
+	</event>
+	<event>
+		<Day> Friday </Day>
+		<Sport> Basketball Competition </Sport>
+		<teacher> Rawal Shrestha </teacher>
+		<country> Nepal  </country>
+		<place> Chabahil </place>
+		<prize> 30 thousand </prize>
+		<year>2019</year>
+	</event>
+	<event>
+		<Day> Saturday </Day>
+		<Sport> Holiday </Sport>
+		<teacher> Rawal Shrestha </teacher>
+		<country> Nepal  </country>
+		<place> Chabahil </place>
+		<prize> 30 thousand </prize>
+		<year> 2019 </year>
+	</event>
+</program>

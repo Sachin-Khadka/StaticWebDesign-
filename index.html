@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Index| Language Teaching Center </title>
+	<meta charset="UTF-8">
+	<meta http-equiv="refresh" contain="30">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/style.css">
+	</head>
+<body>
+	<style>
+		#share>p{
+			text-align: center;
+			color:red;
+		}
+
+
+		.flip-box {
+  background-color: transparent;
+  width: 375px;
+  height: 350px;
+  border: 2px solid #f1f1f1;
+  perspective: 1000px;
+  padding: auto;
+  margin:auto;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.colorchange{
+  animation:  colorchange 1s infinite;
+}
+
+@keyframes colorchange{
+  0%{color: pink;}
+  25%{color:#bf55ec; ;}
+  50%{ color: green; }
+  100%{ color:#bf55ec;  }
+}
+
+	</style>
+<!--Header Section, including Nav bar -->
+<header>
+	<div id="header">
+		<ul id="navbar">
+			<li id="nav-list"> <a href="index.html"> Home </a></li>
+			<li> <a href="./Html/About.html"> About Us </a> </li>
+			<li> <a href="./Html/Program.html"> Programs </a>  </li>
+		    <li> <a href="./Html/Event.html"> Events </a> </li>
+			<li> <a href="./Html/Contract.html"> Contacts </a> </li>
+		</ul>
+		<marquee><h1> Welcome to my Web Page </h1></marquee>
+	   </div>
+
+</header>
+<!-- part of a header section, including, Logo and Name of Institute and Search buttom -->
+<figure>
+	<!-- part of a header section with Logo  -->
+	<div id="Logo">
+		<img src="./Image/ttt.jpg" alt="Company Logo"> 
+	 </div>
+	 <!-- part of a header section with Name of Institute -->
+	 <div id="Heading">
+		<h1> <span style="color:pink;">Language</span> Teaching Center </h1>
+	 </div>
+		 <!-- part of a header section with Search buttom -->
+	 <div class="Search1">
+		<input type="submit" name=""><input type="text" placeholder="Search.............."> 
+	 </div>
+</figure>
+<div class="clr"></div>
+<!--Container Part, including image and aside -->
+<container id="container">	
+	        <div id="figure">
+			<img src="./Image/2.jpg" alt="picture of students" height="420px" width="650px"> 
+		</div>
+		
+		<!--Container part, with aside bar -->
+			<div id="aside">
+					<p style="color:green;">
+						These Language Teaching Center is run by professional Japanese, English and Korean Language Instructors and Entrepreneurs. The motive behind the establishment of Language Teaching Center is to make joint effort towards promoting Japanese, English and Korean Language, cultural exchange and providing right information to the students who are willing to study in Japan, Korea and other English language based country. This Institute will play a very sensitive and vital role to assist the student who is in search to study abroad. It can work as a bridge and make the way easy to study in a foreign land. The number of Nepalese students aspiring to study abroad is at an increasing trend. Japan and Korean has become one of the best study destinations among the Nepali students if we see the last couple of year’s data.
+				    </p>
+				</div>
+</container>
+<div class ="clr"></div>
+<!-- Article Part including 3 article-->
+<article>
+	<!--Article Part, with article 1 -->
+<div class="article1">
+	<h2> History </h2>
+		<p>
+			Founded in 1996, the LTC (Language Teaching Centre) is an international language teaching Institute in Kathmandu Town, Nepal. In 2001, the business was taken over by Mechtild Braxmaier, a German entrepreneur who is passionate about education. The business is currently managed by Sachin Khadka. We offer English,Korean, Japenese and other language courses, training and certification in an encouraging, safe and positive educational setting. Teachers are highly qualified, native speakers of the languages they teach. They must have a TEFL, CELTA and/or a University English teaching degree. They have extensive experience in teaching students of many different nationalities. 
+		</p> 
+</div>
+	<!--Article Part, with article 2 -->
+<div class="article1">
+    <h2> Purpose</h2>
+		 <p>
+	 		Our purpose is to connect people from various cultures around the world and to provide them with a space to grow. We do this by providing high quality English, Korean, Japanese and other language courses, training and certification in a personalised and encouraging learning environment. 
+		</p> <br><br>
+
+		<h3 class="colorchange">Hover over the box below:</h3>
+
+  <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+     <img src="./Image/stevejob.jpg" alt="picture of Steve JOb Quote" height="100%" width="100%">
+    </div>
+    <div class="flip-box-back">
+     <img src="./Image/Albert-Einstein.jpg" alt="picture of Albert-Einstein Quote" height="100%" width="100%"> 
+    </div>
+  </div>
+</div>
+
+</div>
+	<!--Article Part, with article 3 -->
+<div class="article1">
+	<h2> Value Propositions </h2>
+		<p>
+			The Language Teaching Centre is an established language teaching Institute and we have been teaching students for over 20 years. We offer quality English,Korean,Japanese and other language courses, training and certification. All of our teachers are certified and take pride in their work. They are native speakers of the languages they teach. We offer personalised and tailor-made language courses, training and certification for private and business students. LTC teachers and staff create a friendly family atmosphere which generates an encouraging learning environment. The language teaching Institute is in a trendy location in Kathmandu Town. Building and classrooms are contemporary. We offer a complete language travel package, incl. accommodation and tours. Ask for our language immersion program.
+		 </p>
+ </div>
+</article>
+<!-- This div is for clearing nonsense stuff
+ -->
+<div class ="clr"></div>
+<!-- Footer Section, including copy@right -->
+
+<footer> 
+	<div id="share">
+		<p style="font-size:18px;"> Please like and share:</p>
+		  <a href="https://www.facebook.com/" target="_blank">  <img id="sharp" src="./Image/fshare.jpg" width="70px" height="30px" alt="Share Icon"></a>
+		  <a href="https://www.twitter.com/"  target="_blank"> <img id="twitter" src="./Image/tweer.jpg" width="70px" height="30px" alt="Twitter Icon"></a>
+		  <a href="https://www.pintrest.com/"  target="_blank">	<img id="pintrest" src="./Image/pintrest.jpg" width="70px" height="30px" alt="Pintrest Icon"></a>
+		 <a href="https://www.google.com/"  target="_blank"><img id="google" src="./Image/s.png" width="50px" height="37px" alt="Google Icon"></a>
+		</div>
+Copyright&copy2019 <abbr title="Language Teaching Center"> LTC </abbr>
+
+</footer>
+<!--  Footer Section closed -->
+</body>
+</html>

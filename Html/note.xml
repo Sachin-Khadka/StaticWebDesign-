@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- This tells about version of xml -->
+<note> <!-- This is root tag -->
+	<to> All Students and Staffs of LTC  </to> <!-- This child element of note tag -->
+ <from> CEO of Language Teaching Center  </from> <!-- This tag is defined by me, which is accepted by xml -->
+ <heading> Reminder </heading>
+ <body> Don't forget to attent the tommorrow's meeting.</body> 
+ <!-- Every tag have must its closing tag. -->
+</note>

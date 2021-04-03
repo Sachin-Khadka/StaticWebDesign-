@@ -1,0 +1,241 @@
+/*this margin and padding is for all*/
+*{margin: 0px;padding:  0px;}
+/*this effect for entire header id*/
+#header{
+background-color:green;
+height:80px;
+width:100%;
+}
+/*this effect for entire navbar id*/
+#navbar{
+
+	width:1000px;
+	height:80px;
+	float : left;
+}
+#navbar>li{
+	width:190px;
+	list-style:none;
+	float:left;
+	border-right:1px solid gray;
+	border-left:1px solid gray;
+
+}
+/*this effect for entire list's ankle elements*/
+li>a
+{
+	display:block;
+	color:white;
+	line-height:80px;
+	text-align:center;
+	font-family:cusive;
+	font-size:25px;
+	text-decoration: none;
+
+
+}
+/*this effect for entire list's ankle elements*/
+li>a:hover,
+li>a:focus{
+	background-color:blue;
+	color:pink;
+	font-weight: bold;
+	}
+/*this effect for entire clr class*/
+
+.clr{
+
+	clear: both;
+}
+figure{
+	background-color:skyblue;
+	height:140px;
+	width:100%;
+}
+#Course{
+	background-color: #F23309;
+	width: 100%;
+	height: 55px;
+}
+#Equivalence>img{
+	float: left;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+
+#option>select{
+margin-left: 400px;
+padding:8px;
+margin-top: 4px;
+border: 2px groove #D50CC3;
+font-size:20px;
+font-family: arial;
+line-height: 2em;
+font-weight: bold;
+color:#CC25BD;
+}
+#option>select:hover{
+	background-color: pink;
+	color:yellow;
+}
+}
+#social{
+
+	float:right;
+	margin:auto;
+	margin-top: 0px;
+	padding: 0px;
+}
+#social>img{
+
+
+	
+}
+body{
+  font-family:"Tahoma", sans-serif;
+  background:#333;
+  color:#fff;
+}
+
+h2{
+  text-align:center;
+}
+
+.col{
+  float:left;
+  width:25%;
+  padding:2px;
+  box-sizing:border-box;
+}
+.bbb{
+  background-color:#f4f4f4;
+  font-size:20px;
+  border:4px solid white;
+
+ 
+}
+.price-box{
+  background:#fff;
+  color:#555;
+  list-style-type:none;
+  border:1px solid #555;
+  margin:0;
+  padding:0;
+  transition:0.3s;
+}
+
+.price-box:hover, .price-box.best{
+  box-shadow: 0 10px 15px 0 #000;
+}
+
+.price-box .header{
+  background-color:#111;
+  color:#fff;
+  font-size:25px;
+  padding:19px;
+}
+
+.price-box .header.header-green{
+  background-color:#4CAf50;
+}
+
+.price-box li{
+  padding:20px;
+  border-bottom:1px solid #eee;
+  text-align:center;
+}
+
+.price-box .emph{
+  background-color:#f4f4f4;
+  font-ize:20px;
+  padding:24px;
+  border:1px solid white;
+}
+
+.button{
+  background-color:#4CAf50;
+  border:none;
+  color:#fff;
+  padding: 10px 15px;
+  text-align:center;
+  text-decoration:none;
+  font-size:18px;
+}
+.nepal{
+
+  font-size:20px;
+  border:4px solid white;
+}
+
+
+@media(max-width:700px){
+  .col{
+    width:100%;
+  }
+}
+#canvas{
+float:right;
+  margin:auto;
+  margin-top: 0px;
+  padding: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+
+
+}
+
+.btn{
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: lighter;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2;
+}
+.btn-full{
+  background-color: transparent;
+  color: #bf55ec;
+  margin-right: 15px;
+  border: 1px solid #bf55ec;
+}
+
+.btn-full:hover{
+  background-color: #fff;
+}
+
+.btn-nav{
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn-nav:hover{
+  background-color: #bf55ec;
+}
+
+
+.colorchange{
+  animation:  colorchange 1s infinite;
+}
+
+@keyframes colorchange{
+  0%{color: red;}
+  25%{color:#bf55ec; ;}
+  50%{ color: white; }
+  100%{ color:#bf55ec;  }
+}
+
+.mobile-icon{display: none;
+}
+
+/*this effect for entire footer Section*/ 
+footer{
+padding:20px;
+font-size:30px;
+text-align:center;
+background-color:green;
+font-weight:bold;
+color:gray;
+top-margin:20px;
+}

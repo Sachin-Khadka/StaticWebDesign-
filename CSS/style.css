@@ -1,0 +1,170 @@
+/*this margin and padding is for all*/
+*{margin: 0px;padding:  0px;}
+/*this effect for entire header id*/
+#header{
+background-color:green;
+height:80px;
+width:100%;
+}
+/*this effect for entire navbar id*/
+#navbar>li{
+	width:190px;
+	list-style:none;
+	float:left;
+	border-right:1px solid gray;
+	border-left:1px solid gray;
+
+}
+/*this effect for entire list's ankle elements*/
+li>a
+{
+	display:block;
+	color:white;
+	line-height:80px;
+	text-align:center;
+	font-family:cusive;
+	font-size:25px;
+	text-decoration: none;
+
+}
+/*this effect for entire list's ankle elements*/
+li>a:hover,
+li>a:focus{
+	background-color:blue;
+	color:pink;
+	font-weight: bold;
+	}
+/*this effect for entire clr class*/
+
+/*This section for heading hover figure*/
+figure{
+     background-image:url("../Image/radial.gif");
+	background-size: 140px;
+	background-size: cover;
+	height:140px;
+	width:100%;
+}
+ /*This section for heading logo*/
+#Logo>img{
+
+	width:135px;
+	height:135px;
+	float: left;
+	margin-top:2.5px;
+	margin-left: 3px;
+
+}
+ /*This section for heading*/
+#Heading>h1{
+
+	float:left;
+	padding-top: 50%;
+	margin-right:50px;
+	padding-top:0px;
+	font-size:40px;
+	margin-left:350px;
+	margin-top: 40px;
+ }
+ /*This section for heading hover effect*/
+ #Heading h1:hover{
+    color: red;
+    font-size: 45px;
+ }
+
+ 
+ /*This section for search button */
+.Search1 input{
+	float:right;
+	padding-top: 50%;
+	padding-top:0px;
+	margin-top: 50px;
+    margin-top: 60px;
+	margin-left: 30px;
+	
+	
+}
+/*This section for container */
+#container
+	top-padding:3px;
+}
+#container>{
+background: linear-gradient(to bottom, white, Fuchsia);
+}
+#figure {
+	float:right;
+	display: block;
+	clear:both;
+}
+
+.clr{
+	clear:both;
+	}
+/* this effect for entire paragraph */	
+p{
+font-family:arial;
+font-size:18px;
+line-height:1.5em;
+color:green;
+text-align:Justify;
+}
+/* this effect for entire heading1 */	
+
+h1{
+color:purple;
+}
+h2{
+font-family:arial;
+font-size: 22px;
+font-weight:bold;
+color:red;
+text-align:center;
+margin-bottom: 7px;
+margin-top:auto;
+}
+
+h2:hover{
+	color:blue;
+	font-weight: bold;
+	font-size: 25px;
+	
+}
+#aside{
+	background: linear-gradient(to bottom, pink, Fuchsia);
+	padding:50px;
+	overflow: hidden;
+	font-size:18px;
+	font-weight: bold;
+	float:left;
+	width: 42%;
+	
+}
+	
+
+/* this effect for entire article1 class */	
+.article1{
+	top-padding:auto;
+padding: 40px;
+float:left;
+overflow:hidden;
+display:block;
+border: 2px solid red;
+width:33.3%;
+height: 700px;
+margin:auto;
+background-color:pink;
+box-sizing:border-box;
+margin:auto
+}
+/*this effect for entire footer Section*/	
+footer{
+padding:20px;
+font-size:30px;
+text-align:center;
+background-color:green;
+font-weight:bold;
+color:gray;
+top-margin:20px;
+}
+	
+
+		

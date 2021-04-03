@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Contact| Language Teaching Center </title>
+	<link rel="stylesheet" type="text/css" href="../CSS/contact.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script type="text/javascript" src="jquery.js"></script>
+<style>
+section .map  img{
+        float:right;
+        border-style: solid;
+        border-color:#00FA9A;
+        border-radius: 25px;
+
+                        }
+</style>
+
+</head>
+<body>
+<!-- header section -->
+<header>
+	<div id="header">
+		<ul id="navbar">
+			<li id="nav-list"> <a href="../index.html"> Home </a> </li>		
+			<li> <a href="../Html/About.html"> About Us </a> </li>
+			<li> <a href="../Html/Program.html"> Programs </a>  </li>
+		    <li> <a href="../Html/Event.html"> Events </a> </li>
+			<li> <a href="../Html/Contract.html"> Contacts </a> </li>
+		</ul>
+		<canvas id="canvas" width="200" height="150"
+style="background-color:#333">
+</canvas>
+	</div>	
+</header>
+<div id="Course">
+	<div id ="Equivalence">
+	<img src="../Image/euip.jpg"  height="50px" width="50px" alt="Symbol like a Logically Equivalence">
+	</div>
+         <div id="option">
+			<select>
+			    <option value="korean"> Korean Language </option> 
+				<option value="japanese"> Japanese Language </option>
+				<option value="english"> English Language </option>
+			</select>
+		</div>
+		<div id="social">  
+			<a href="https://files.fm/?source=ads_pol&gclid=Cj0KCQiAvebhBRD5ARIsAIQUmnkW3gn8ZrT4K8M8dKVLQXLP3Z6zQRODWBCLritQGJc7kpG4uq3O_PQaAhZ3EALw_wcB" target="_blank">
+			<img src="../Image/download.png" width="50px" height="50px"alt="Share Icon"> 
+		</a>
+		    
+		     <a href="https://twitter.com/" target="_blank">
+			<img src="../Image/images.png" width="50px" height="50px"alt="Twitter Icon">  
+		</a>
+		    
+		     <a href="file:///C:/Users/Sachin%20Khadka/OneDrive/Desktop/Programming%20file/Language/FaceBook/facebook.html
+" target="_blank">
+			<img src="../Image/facebook.png" width="50px" height="50px"alt="Facebook Icon"> 
+		</a>	
+		</div>	
+</div>
+<div class ="clr"></div>	
+
+
+  <h2>Contract List of Language's Teacher </h2>
+  <div class="col">
+    <ul class="price-box best">
+	  <li class="header header-green">Course </li>
+      <li class="header">Korean Language</li>
+      <li class="header"> Japnese Language 
+	  </li>
+	  <li class="header"><strong></strong>English </li>
+      <li class="emph"><a href="../login.html" class="button"> Click here for more info.....</a></li>
+    </ul>
+  </div>
+
+  <div class="col">
+    <ul class="price-box best">
+      <li class="header header-green"> Teacher </li>
+      <li class="emph"><strong>Sachin Khadka </strong></li>
+      <li class="emph"><strong> Sujit Dangol </strong></li>
+      <li class="emph"><strong>David Tamang</strong> </li>
+      <li class="emph"> <a href="../login.html" class="button">Click here for more info.....</a></li>
+    </ul>
+  </div>
+
+   <div class="col">
+    <ul class="price-box best">
+      <li class="header header-green"> Phone Number </li>
+      <li class="bbb"> 9843728910</li>
+	  <li class="bbb"> 9744229002 </li>
+      <li class="bbb"> 9844883139 </li>
+      <li class="emph"> <a href="../login.html" class="button"> Click here for more info.....</a></li>
+    </ul>
+  </div>
+  
+   <div class="col">
+    <ul class="price-box best">
+      <li class="header header-green"> Email </li>
+      <li class="nepal">  sachinkhadka333@gmail.com  </li>
+	  <li class="nepal">  sujitdangol333@gmail.com </li>
+      <li class="nepal"> davidtamang333@gmail.com </li>
+      <li class="emph"> <a href="../Html/login.html" class="button"> Click here for more info.....</a> </li>
+    </ul>
+  </div>
+  <div class="main-content-header">
+	<h1> WELCOME TO <span class="colorchange">Language Teaching Center </span><br>
+				We want feedback from you Guys: </h1>
+			<a href="../login.html" target ="_blank" class="btn btn-full"> Click here for Feedback</a>
+			<a href="../login.html" target ="_blank" class="btn btn-nav"> For more info of Us</a>
+		</div>
+     <br> <br>
+     <h2  class="colorchange" > Find Us (Our Location) </h2>
+      <br> 
+		<section class="map">
+    <!-- google map -->
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.3231875080064!
+                  2d85.31160231504957!3d27.73817598277922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+                  1s0x39eb1927888999d3%3A0xdebce8679954085f!2sLanguage Teaching Center in nepal!5e0!3m2!1sen!2snp!4v1517491577181"
+                  width="100%" height="350" frameborder="0" style="border:1px" allowfullscreen >
+                  </iframe>
+                  <section>
+
+<!-- This is for Canvas -->
+<canvas id="canvas" width="50%" height="100%"
+style="background-color:#333">
+</canvas>
+<script>
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+var radius = canvas.height / 2;
+ctx.translate(radius, radius);
+radius = radius * 0.90
+setInterval(drawClock, 1000);
+
+function drawClock() {
+  drawFace(ctx, radius);
+  drawNumbers(ctx, radius);
+  drawTime(ctx, radius);
+}
+
+function drawFace(ctx, radius) {
+  var grad;
+  ctx.beginPath();
+  ctx.arc(0, 0, radius, 0, 2*Math.PI);
+  ctx.fillStyle = 'white';
+  ctx.fill();
+  grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
+  grad.addColorStop(0, '#333');
+  grad.addColorStop(0.5, 'white');
+  grad.addColorStop(1, '#333');
+  ctx.strokeStyle = grad;
+  ctx.lineWidth = radius*0.1;
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.arc(0, 0, radius*0.1, 0, 2*Math.PI);
+  ctx.fillStyle = '#333';
+  ctx.fill();
+}
+
+function drawNumbers(ctx, radius) {
+  var ang;
+  var num;
+  ctx.font = radius*0.15 + "px arial";
+  ctx.textBaseline="middle";
+  ctx.textAlign="center";
+  for(num = 1; num < 13; num++){
+    ang = num * Math.PI / 6;
+    ctx.rotate(ang);
+    ctx.translate(0, -radius*0.85);
+    ctx.rotate(-ang);
+    ctx.fillText(num.toString(), 0, 0);
+    ctx.rotate(ang);
+    ctx.translate(0, radius*0.85);
+    ctx.rotate(-ang);
+  }
+}
+
+function drawTime(ctx, radius){
+    var now = new Date();
+    var hour = now.getHours();
+    var minute = now.getMinutes();
+    var second = now.getSeconds();
+    //hour
+    hour=hour%12;
+    hour=(hour*Math.PI/6)+
+    (minute*Math.PI/(6*60))+
+    (second*Math.PI/(360*60));
+    drawHand(ctx, hour, radius*0.5, radius*0.07);
+    //minute
+    minute=(minute*Math.PI/30)+(second*Math.PI/(30*60));
+    drawHand(ctx, minute, radius*0.8, radius*0.07);
+    // second
+    second=(second*Math.PI/30);
+    drawHand(ctx, second, radius*0.9, radius*0.02);
+}
+
+function drawHand(ctx, pos, length, width) {
+    ctx.beginPath();
+    ctx.lineWidth = width;
+    ctx.lineCap = "round";
+    ctx.moveTo(0,0);
+    ctx.rotate(pos);
+    ctx.lineTo(0, -length);
+    ctx.stroke();
+    ctx.rotate(-pos);
+}
+</script>
+<div class ="clr"></div>
+<footer> 
+	<div id="share">
+		<p style="font-size:18px;"> Please like and share:</p>
+		  <a href="https://www.facebook.com/" target="_blank">  <img id="sharp" src="../Image/fshare.jpg" width="70px" height="30px" alt="Share Icon"></a>
+		  <a href="https://www.twitter.com/"  target="_blank"> <img id="twitter" src="../Image/tweer.jpg" width="70px" height="30px" alt="Twitter Icon"></a>
+		  <a href="https://www.pintrest.com/"  target="_blank">	<img id="pintrest" src="../Image/pintrest.jpg" width="70px" height="30px" alt="Pintrest Icon"></a>
+		 <a href="https://www.google.com/"  target="_blank"><img id="google" src="../Image/s.png" width="50px" height="37px" alt="Google Icon"></a>
+		</div>
+Copyright&copy2019 <abbr title="Language Teaching Center"> LTC </abbr>
+</footer>
+</body> 
+</html>
